@@ -3,12 +3,27 @@ package com.bridgelabz.employeewage;
 public class EmployeeWage {
     static final int WAGE_PER_HOUR = 20;
     static final int HOURS_PER_DAY = 8;
-    static final int PART_TIMES_MONTH = 20;
+    static final int PART_TIMES_HOURS= 8;
     static final int DAYS_PER_MONTH = 20;
     static final int HOURS_PER_MONTH = 100;
 
-    static void EmployeeWageComputation() {
+    static void EmployeeWageCompany() {
+       // UC8 -Adding Multiple Company
         System.out.println("Welcome to Employee Wage Problem");
+        EmployeeWage Google = new EmployeeWage();
+        Google.int WAGE_PER_HOUR = 10;
+        Google. int HOURS_PER_DAY = 4;
+        Google.int PART_TIMES_HOURS= 4;
+        Google.int DAYS_PER_MONTH = 10;
+        Google. int HOURS_PER_MONTH = 50;
+
+        EmployeeWage Microsoft = new EmployeeWage();
+        Microsoft.int WAGE_PER_HOUR = 40;
+        Microsoft. int HOURS_PER_DAY = 20;
+        Microsoft.int PART_TIMES_HOURS= 20;
+        Microsoft.int DAYS_PER_MONTH = 20;
+        Microsoft.int HOURS_PER_MONTH = 100;
+
         //UC1 - Attendance Check
         int employeecheck = (int) (Math.random() * 10) % 3;
         System.out.println("employee check");
